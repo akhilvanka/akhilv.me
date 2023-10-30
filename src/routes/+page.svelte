@@ -76,13 +76,8 @@
 </svelte:head>
 
 
-
-
-
-
-
 <svelte:window bind:innerWidth={screenSize} bind:innerHeight={screenHeight} />
-<main class="text-darkGrey dark:text-offWhite text-[14px] md:text-[16px] md:my-[128px] my-[48px] antialiased underline-offset-2 box-border flex">
+<main class="text-darkGrey dark:text-offWhite text-[15px] md:text-[16px] md:my-[128px] my-[48px] antialiased underline-offset-2 box-border flex">
     <div class="grid md:grid-cols-[192px_680px_96px] max-w-[968px] mx-[24px] leading-[28px] grid-cols-1">
         <article class="md:col-start-2 md:col-end-2 space-y-[32px] col-start-1 col-end-1">
             <div class="space-y-[28px]">
